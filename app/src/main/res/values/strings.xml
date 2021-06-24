@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Aurora Services</string>
+    <string name="app_name">Liberty Services</string>
 
     <string name="action_clear">Clear</string>
     <string name="action_install">Install</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.aurora.services">
+    package="com.libertyphoneproject.services">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
@@ -40,7 +40,7 @@
             android:process=":aurora_service"
             tools:ignore="ExportedService">
             <intent-filter>
-                <action android:name="com.aurora.services.IPrivilegedService" />
+                <action android:name="com.libertyphoneproject.services.IPrivilegedService" />
             </intent-filter>
         </service>
 
