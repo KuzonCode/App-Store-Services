@@ -8,10 +8,10 @@ import com.libertyphoneproject.services.data.utils.Log
 class AccessProvider(context: Context) {
 
     private val allowedPackages: MutableSet<String> = mutableSetOf(
-        "com.aurora.store",
-        "com.aurora.store.debug",
-        "com.aurora.store.nightly",
-        "com.aurora.adroid"
+        "com.libertyphoneproject.store",
+        "com.libertyphoneproject.store.debug",
+        "com.libertyphoneproject.store.nightly",
+        "com.libertyphoneproject.adroid"
     )
 
     private val packageManager: PackageManager = context.packageManager

@@ -37,7 +37,7 @@
             android:name=".PrivilegedService"
             android:enabled="true"
             android:exported="true"
-            android:process=":aurora_service"
+            android:process=":liberty_service"
             tools:ignore="ExportedService">
             <intent-filter>
                 <action android:name="com.libertyphoneproject.services.IPrivilegedService" />
